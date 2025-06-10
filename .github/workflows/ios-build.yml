@@ -23,7 +23,7 @@ jobs:
       run: |
         gem install cocoapods
         pod install
-      working-directory: ./YourProjectDirectory  # Update this if needed
+      working-directory: ./Pocket-Contacts-Pro  # Update this if needed
 
     - name: Build the app
       run: |
